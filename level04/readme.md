@@ -39,7 +39,8 @@ the offset is `0x41326641` = 156
 
 ### Set environnement variable
 like the parent process block the use of the execve system call in child process 
-We going to use method **RET2LIBC**   Instead of directly executing shellcode, the attacker leverages existing code in the program's memory. 
+We going to use method **RET2LIBC**  :
+Instead of directly executing shellcode, the attacker leverages existing code in the program's memory. 
 They often target the C standard library (libc) functions that are already loaded in memory, such as system(), exit()
 
 **Utile command:**
